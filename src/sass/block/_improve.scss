@@ -1,0 +1,37 @@
+.improve {
+  height: 470px;
+  background-color: #f6f6f6;
+  padding: 70px 0 78px 0;
+  &__header {
+    text-align: center;
+    color: #0d0d0d;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  &__blocks {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+    .improve__block {
+      text-align: center;
+      width: 247px;
+      .improve__text {
+        margin-top: 38px;
+        text-align: center;
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+      }
+      .improve__subtext {
+        margin-top: 26px;
+        color: #0d0d0d;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        span {
+          color: $main_color;
+        }
+      }
+    }
+  }
+}
